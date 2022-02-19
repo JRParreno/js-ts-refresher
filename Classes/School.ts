@@ -12,11 +12,11 @@ const student = new Student(
     "PASAY CITY"
 );
 
-console.log(student);
+// console.log(student);
 
 const test = new StudentWOExtends(
     "2015-105968",
     new Person("jr", 20, 'male', 'pasay')
 );
 
-console.log(test.person.getFullName());
+test.person.getFullName();
