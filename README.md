@@ -11,3 +11,7 @@
   * open folder
   * look for js-ts-refresher folder
   * select folder
+  * run ts file 
+    - ts-node filename.ts
+  * run js file
+    - node filename.js
