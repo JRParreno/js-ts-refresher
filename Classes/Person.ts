@@ -17,10 +17,10 @@ export class Person {
     }
 
     getFullName() {
-        console.log(`Fullname: ${this.name}, age: ${this.age}`);
+        return `Fullname: ${this.name}`;
     }
 
-    val() {
-        console.log(this.age);
+    getAge() {
+        return this.age;
     }
 }
