@@ -20,4 +20,12 @@ export class Student extends Person {
         this.college = college
     }
 
+    getStudentInfo() {
+        // Expected format
+        // Student Id: 2015-XXXX
+        // Course: BSCPE
+        // College: CEIT
+        return `Student ID: ${this.studentId} \nCourse: ${this.course}\nCollege: ${this.college}`;
+    }
+
 } 
